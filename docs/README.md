@@ -441,7 +441,7 @@ def train_models_in_parallel(job_id: str, cfg: TrainConfig) -> dict[str, Any]:
 
 ### Complete Containerization Strategy
 
-**File:** [Dockerfile](Dockerfile)
+**File:** [Dockerfile](../Dockerfile)
 
 **Multi-Stage Container Design:**
 
