@@ -118,7 +118,7 @@ Matplotlib creates visualizations and scikit-learn provides machine learning alg
 
 ### Matplotlib Implementation
 
-**File:** [src/plots.py](src/plots.py)
+**File:** [src/plots.py](../src/plots.py)
 
 I created two types of plots to understand model performance:
 
@@ -189,7 +189,7 @@ def plot_residuals_png(y_true, y_pred) -> bytes:
 
 ### Scikit-learn Implementation
 
-**File:** [../src/training.py](src/training.py)
+**File:** [src/training.py](../src/training.py)
 
 I implemented 10 different machine learning algorithms to understand different approaches:
 
@@ -256,7 +256,7 @@ Machine learning training is about finding patterns in data. I split data into t
 
 ### Training Process Implementation
 
-**File:** [src/training.py](src/training.py) - Function `_train_one_model()`
+**File:** [src/training.py](../src/training.py) - Function `_train_one_model()`
 
 **Step 1: Load Dataset**
 ```python
@@ -332,7 +332,7 @@ Python can do multiple things at the same time using threads (for I/O tasks) and
 
 ### Threading Implementation
 
-**File:** [src/main.py](src/main.py)
+**File:** [src/main.py](../src/main.py)
 
 **Thread Pool for API Requests:**
 ```python
@@ -378,7 +378,7 @@ def _set_job(job_id: str, patch: dict[str, Any]) -> None:
 
 ### Multiprocessing Implementation  
 
-**File:** [src/training.py](src/training.py) - Function `train_models_in_parallel()`
+**File:** [src/training.py](../src/training.py) - Function `train_models_in_parallel()`
 
 **Process Pool for CPU-Heavy Training:**
 ```python
@@ -507,7 +507,7 @@ CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]
 ```python
 matplotlib.use("Agg")  # Non-interactive backend
 ```
-**In [src/plots.py](src/plots.py#L5):** Container has no display, so must use non-interactive backend.
+**In [src/plots.py](../src/plots.py#L5):** Container has no display, so must use non-interactive backend.
 
 **4. Environment Isolation:**
 - Container has its own file system, network, processes
