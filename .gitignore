@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+
+# Virtual environment
+.venv/
+
+# Models and training outputs
+models/
+*.joblib
+
+# Logs
+*.log
+
+# IDE
+.vscode/
