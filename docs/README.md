@@ -189,7 +189,7 @@ def plot_residuals_png(y_true, y_pred) -> bytes:
 
 ### Scikit-learn Implementation
 
-**File:** [src/training.py](src/training.py)
+**File:** [../src/training.py](src/training.py)
 
 I implemented 10 different machine learning algorithms to understand different approaches:
 
